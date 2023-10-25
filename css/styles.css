@@ -296,9 +296,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 72px;
-
 }
-
 
 .feature-list-title {
     width: auto;
@@ -308,13 +306,9 @@ img {
     width: auto;
 }
 
-
 .features-icon-boxes {
     display: none;
 }
-
-
-
 
 
 .feature-item-title {
@@ -329,22 +323,18 @@ img {
 }
 
 
-
-
 .feature-item-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #434455;
-
-
 }
 
 /*================TEAM================*/
 
 .section-team {
-    padding: 120px 0;
+    padding: 96px 0;
     background: #f4f4fd;
 }
 
@@ -1113,41 +1103,44 @@ img {
     .feature-list {
         display: flex;
         gap: 24px;
-        padding-left: 0;
-        margin: 0;
     }
 
     .feature-list-item {
-        flex-basis: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 3 * 24px) / 4);
     }
 
     .features-icon-boxes {
         display: flex;
-        justify-content: center;
         align-items: center;
-        height: 112px;
+        justify-content: center;
         background-color: #f4f4fd;
         border-radius: 4px;
         margin-bottom: 8px;
-        border: 1px solid #8E8F99;
+        height: 112px;
+        border: 1px solid #8e8f99;
     }
 
     .feature-item-title {
+        color: #2e2f42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        margin: 0;
         margin-bottom: 8px;
-        align-items: center;
     }
 
     .feature-item-description {
-        font-weight: 400;
-        align-items: center;
-        margin: 0;
-        margin-bottom: 8px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
+
+    /* ----------TEAM--DESKTOP-------- */
+    .section-team {
+        padding: 120px 0;
+        background: #f4f4fd;
+    }
+
 }
 
 
