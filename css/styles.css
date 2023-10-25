@@ -305,12 +305,8 @@ img {
 }
 
 .feature-list-item {
-    max-width: 356px;
+    width: auto;
 }
-
-
-
-
 
 
 .features-icon-boxes {
@@ -1062,7 +1058,7 @@ img {
 
 
     .feature-section {
-        padding: 96px 16px;
+        padding: 96px 0;
     }
 
     .feature-list {
@@ -1072,7 +1068,7 @@ img {
     }
 
     .feature-list-item {
-        width: calc((100% - 24px) / 2);
+        max-width: 356px;
     }
 }
 
@@ -1109,6 +1105,7 @@ img {
         margin-top: 48px;
     }
 
+    /* ------feature---DESK--- */
     .feature-section {
         padding: 120px 0;
     }
@@ -1121,19 +1118,18 @@ img {
     }
 
     .feature-list-item {
-        flex-basis: calc((100% - 3 * 24px) / 4);
+        flex-basis: calc((100% - 72px) / 4);
     }
 
     .features-icon-boxes {
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        height: 112px;
         background-color: #f4f4fd;
         border-radius: 4px;
         margin-bottom: 8px;
-        height: 112px;
-        width: 100%;
-        border: 1px solid #8e8f99;
+        border: 1px solid #8E8F99;
     }
 
     .feature-item-title {
@@ -1141,11 +1137,16 @@ img {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin: 0;
         margin-bottom: 8px;
+        align-items: center;
     }
 
     .feature-item-description {
         font-weight: 400;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 8px;
     }
 }
 
